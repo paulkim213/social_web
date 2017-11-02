@@ -28,22 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-### Google Account ###
-#EMAIL_HOST = 'smtp.gmail.com'
-#EMAIL_HOST_USER = 'goocle213@gmail.com'
-#EMAIL_HOST_PASSWORD = '_vertex25'
-#EMAIL_PORT = 587
-#EMAIL_USE_TLS = True
+
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-### QQ Account ###
-#EMAIL_HOST = 'smtp.qq.com'
-#EMAIL_HOST_USER = '2724990207@qq.com'
-#EMAIL_HOST_PASSWORD = 'Vertex25'
-#EMAIL_PORT = 25
-#EMAIL_FROM = '2724990207@qq.com'
-#EMAIL_USE_TLS = True
-#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 
 ### Local Host ###
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
